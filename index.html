@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tutorial Jquery</title>
+</head>
+<body class="p-4">
+    <button id="home-button" class="border px-2 py-1 border-sky-500 rounded-lg shadow-sm ring-1 ring-inset ring-sky-300">
+        Home
+    </button>
+    <button id="about-button" class="border px-2 py-1 border-sky-500 rounded-lg shadow-sm ring-1 ring-inset ring-sky-300">
+        About
+    </button>
+
+    <div id="login-section">
+        <form id="login-form" class="space-y-2">
+            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+            <div class="mt-2">
+              <input id="email" name="email" type="email" autocomplete="email" required class="block w-full rounded-md border-0 py-1.5 pl-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+            </div>
+            <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
+            <div class="mt-2">
+              <input id="password" name="password" type="password" required class="block w-full rounded-md border-0 py-1.5 pl-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6">
+            </div>
+            <button type="submit" class="flex w-full justify-center rounded-md bg-sky-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm">Submit</button>
+        </form>
+    </div>
+    <div id="home-section" class="p-4 space-y-2">
+        <span class="font-bold text-xl">Home</span>
+        <p class="border border-sky-500 rounded-lg shadow-sm ring-1 ring-inset ring-sky-300 p-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <table class="table-auto text-left w-full text-gray-500 mt-4">
+            <thead class="text-gray-700 uppercase bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3">Song</th>
+                    <th class="px-6 py-3">Artist</th>
+                    <th class="px-6 py-3">Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b">
+                    <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">Shape of you</th>
+                    <td class="px-6 py-4">Ed sheeran</td>
+                    <td class="px-6 py-4">2000</td>
+                </tr>
+                <tr>
+                    <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">Yellow</th>
+                    <td class="px-6 py-4">Coldplay</td>
+                    <td class="px-6 py-4">2000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="about-section" class="p-4 space-y-2">
+        <span class="font-bold text-xl">About</span>
+        <p class="border border-sky-100 rounded-lg shadow-sm ring-1 ring-inset ring-sky-300 p-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+</body>
+</html>
